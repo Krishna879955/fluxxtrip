@@ -1,0 +1,217 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.naptca"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->C:\Users\Krishna\AndroidStudioProjects\naptca\android\app\src\debug\AndroidManifest.xml:6:5-66
+15-->C:\Users\Krishna\AndroidStudioProjects\naptca\android\app\src\debug\AndroidManifest.xml:6:22-64
+16    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+16-->C:\Users\Krishna\AndroidStudioProjects\naptca\android\app\src\main\AndroidManifest.xml:2:5-77
+16-->C:\Users\Krishna\AndroidStudioProjects\naptca\android\app\src\main\AndroidManifest.xml:2:22-74
+17    <!--
+18 Required to query activities that can process text, see:
+19         https://developer.android.com/training/package-visibility and
+20         https://developer.android.com/reference/android/content/Intent#ACTION_PROCESS_TEXT.
+21
+22         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
+23    -->
+24    <queries>
+24-->C:\Users\Krishna\AndroidStudioProjects\naptca\android\app\src\main\AndroidManifest.xml:43:5-48:15
+25        <intent>
+25-->C:\Users\Krishna\AndroidStudioProjects\naptca\android\app\src\main\AndroidManifest.xml:44:9-47:18
+26            <action android:name="android.intent.action.PROCESS_TEXT" />
+26-->C:\Users\Krishna\AndroidStudioProjects\naptca\android\app\src\main\AndroidManifest.xml:45:13-72
+26-->C:\Users\Krishna\AndroidStudioProjects\naptca\android\app\src\main\AndroidManifest.xml:45:21-70
+27
+28            <data android:mimeType="text/plain" />
+28-->C:\Users\Krishna\AndroidStudioProjects\naptca\android\app\src\main\AndroidManifest.xml:46:13-50
+28-->C:\Users\Krishna\AndroidStudioProjects\naptca\android\app\src\main\AndroidManifest.xml:46:19-48
+29        </intent>
+30    </queries>
+31
+32    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+32-->[com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\6ff09152b66c42e2cb75fa11f6053e97\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:23:5-79
+32-->[com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\6ff09152b66c42e2cb75fa11f6053e97\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:23:22-76
+33    <uses-permission android:name="android.permission.WAKE_LOCK" />
+33-->[com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\6ff09152b66c42e2cb75fa11f6053e97\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:24:5-68
+33-->[com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\6ff09152b66c42e2cb75fa11f6053e97\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:24:22-65
+34    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+34-->[com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\6ff09152b66c42e2cb75fa11f6053e97\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:25:5-79
+34-->[com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\6ff09152b66c42e2cb75fa11f6053e97\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:25:22-76
+35    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+35-->[com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\6ff09152b66c42e2cb75fa11f6053e97\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:26:5-88
+35-->[com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\6ff09152b66c42e2cb75fa11f6053e97\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:26:22-85
+36    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+36-->[com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\6ff09152b66c42e2cb75fa11f6053e97\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:27:5-82
+36-->[com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\6ff09152b66c42e2cb75fa11f6053e97\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:27:22-79
+37    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+37-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\b104be706e8578ddfdcfaae97ce7dcc1\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:26:5-110
+37-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\b104be706e8578ddfdcfaae97ce7dcc1\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:26:22-107
+38
+39    <permission
+39-->[androidx.core:core:1.9.0] C:\Users\Krishna\.gradle\caches\transforms-4\3cc9a124f22ae9eaf1275345525667d7\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+40        android:name="com.example.naptca.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+40-->[androidx.core:core:1.9.0] C:\Users\Krishna\.gradle\caches\transforms-4\3cc9a124f22ae9eaf1275345525667d7\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+41        android:protectionLevel="signature" />
+41-->[androidx.core:core:1.9.0] C:\Users\Krishna\.gradle\caches\transforms-4\3cc9a124f22ae9eaf1275345525667d7\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+42
+43    <uses-permission android:name="com.example.naptca.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+43-->[androidx.core:core:1.9.0] C:\Users\Krishna\.gradle\caches\transforms-4\3cc9a124f22ae9eaf1275345525667d7\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+43-->[androidx.core:core:1.9.0] C:\Users\Krishna\.gradle\caches\transforms-4\3cc9a124f22ae9eaf1275345525667d7\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+44
+45    <application
+46        android:name="android.app.Application"
+47        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+47-->[androidx.core:core:1.9.0] C:\Users\Krishna\.gradle\caches\transforms-4\3cc9a124f22ae9eaf1275345525667d7\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+48        android:debuggable="true"
+49        android:extractNativeLibs="false"
+50        android:icon="@mipmap/ic_launcher"
+51        android:label="naptca" >
+52        <activity
+53            android:name="com.example.naptca.MainActivity"
+54            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+55            android:exported="true"
+56            android:hardwareAccelerated="true"
+57            android:launchMode="singleTop"
+58            android:taskAffinity=""
+59            android:theme="@style/LaunchTheme"
+60            android:windowSoftInputMode="adjustResize" >
+61
+62            <!--
+63                 Specifies an Android theme to apply to this Activity as soon as
+64                 the Android process has started. This theme is visible to the user
+65                 while the Flutter UI initializes. After that, this theme continues
+66                 to determine the Window background behind the Flutter UI.
+67            -->
+68            <meta-data
+69                android:name="io.flutter.embedding.android.NormalTheme"
+70                android:resource="@style/NormalTheme" />
+71
+72            <intent-filter>
+73                <action android:name="android.intent.action.MAIN" />
+74
+75                <category android:name="android.intent.category.LAUNCHER" />
+76            </intent-filter>
+77        </activity>
+78        <!--
+79             Don't delete the meta-data below.
+80             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+81        -->
+82        <meta-data
+83            android:name="flutterEmbedding"
+84            android:value="2" />
+85
+86        <service
+87            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+88            android:foregroundServiceType="location" />
+89        <service
+89-->[com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\6ff09152b66c42e2cb75fa11f6053e97\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:30:9-36:19
+90            android:name="com.google.firebase.components.ComponentDiscoveryService"
+90-->[com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\6ff09152b66c42e2cb75fa11f6053e97\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:31:13-84
+91            android:directBootAware="true"
+91-->[com.google.firebase:firebase-common:22.0.1] C:\Users\Krishna\.gradle\caches\transforms-4\aa35fe5a3cb5db29317b5413105f4424\transformed\firebase-common-22.0.1\AndroidManifest.xml:32:13-43
+92            android:exported="false" >
+92-->[com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\6ff09152b66c42e2cb75fa11f6053e97\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:32:13-37
+93            <meta-data
+93-->[com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\6ff09152b66c42e2cb75fa11f6053e97\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:33:13-35:85
+94                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+94-->[com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\6ff09152b66c42e2cb75fa11f6053e97\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:34:17-139
+95                android:value="com.google.firebase.components.ComponentRegistrar" />
+95-->[com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\6ff09152b66c42e2cb75fa11f6053e97\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:35:17-82
+96            <meta-data
+96-->[com.google.firebase:firebase-installations:19.0.1] C:\Users\Krishna\.gradle\caches\transforms-4\a663ccab4033529f746845a3a94e018c\transformed\firebase-installations-19.0.1\AndroidManifest.xml:15:13-17:85
+97                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+97-->[com.google.firebase:firebase-installations:19.0.1] C:\Users\Krishna\.gradle\caches\transforms-4\a663ccab4033529f746845a3a94e018c\transformed\firebase-installations-19.0.1\AndroidManifest.xml:16:17-130
+98                android:value="com.google.firebase.components.ComponentRegistrar" />
+98-->[com.google.firebase:firebase-installations:19.0.1] C:\Users\Krishna\.gradle\caches\transforms-4\a663ccab4033529f746845a3a94e018c\transformed\firebase-installations-19.0.1\AndroidManifest.xml:17:17-82
+99            <meta-data
+99-->[com.google.firebase:firebase-installations:19.0.1] C:\Users\Krishna\.gradle\caches\transforms-4\a663ccab4033529f746845a3a94e018c\transformed\firebase-installations-19.0.1\AndroidManifest.xml:18:13-20:85
+100                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+100-->[com.google.firebase:firebase-installations:19.0.1] C:\Users\Krishna\.gradle\caches\transforms-4\a663ccab4033529f746845a3a94e018c\transformed\firebase-installations-19.0.1\AndroidManifest.xml:19:17-127
+101                android:value="com.google.firebase.components.ComponentRegistrar" />
+101-->[com.google.firebase:firebase-installations:19.0.1] C:\Users\Krishna\.gradle\caches\transforms-4\a663ccab4033529f746845a3a94e018c\transformed\firebase-installations-19.0.1\AndroidManifest.xml:20:17-82
+102            <meta-data
+102-->[com.google.firebase:firebase-common:22.0.1] C:\Users\Krishna\.gradle\caches\transforms-4\aa35fe5a3cb5db29317b5413105f4424\transformed\firebase-common-22.0.1\AndroidManifest.xml:35:13-37:85
+103                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+103-->[com.google.firebase:firebase-common:22.0.1] C:\Users\Krishna\.gradle\caches\transforms-4\aa35fe5a3cb5db29317b5413105f4424\transformed\firebase-common-22.0.1\AndroidManifest.xml:36:17-109
+104                android:value="com.google.firebase.components.ComponentRegistrar" />
+104-->[com.google.firebase:firebase-common:22.0.1] C:\Users\Krishna\.gradle\caches\transforms-4\aa35fe5a3cb5db29317b5413105f4424\transformed\firebase-common-22.0.1\AndroidManifest.xml:37:17-82
+105        </service>
+106
+107        <provider
+107-->[com.google.firebase:firebase-common:22.0.1] C:\Users\Krishna\.gradle\caches\transforms-4\aa35fe5a3cb5db29317b5413105f4424\transformed\firebase-common-22.0.1\AndroidManifest.xml:23:9-28:39
+108            android:name="com.google.firebase.provider.FirebaseInitProvider"
+108-->[com.google.firebase:firebase-common:22.0.1] C:\Users\Krishna\.gradle\caches\transforms-4\aa35fe5a3cb5db29317b5413105f4424\transformed\firebase-common-22.0.1\AndroidManifest.xml:24:13-77
+109            android:authorities="com.example.naptca.firebaseinitprovider"
+109-->[com.google.firebase:firebase-common:22.0.1] C:\Users\Krishna\.gradle\caches\transforms-4\aa35fe5a3cb5db29317b5413105f4424\transformed\firebase-common-22.0.1\AndroidManifest.xml:25:13-72
+110            android:directBootAware="true"
+110-->[com.google.firebase:firebase-common:22.0.1] C:\Users\Krishna\.gradle\caches\transforms-4\aa35fe5a3cb5db29317b5413105f4424\transformed\firebase-common-22.0.1\AndroidManifest.xml:26:13-43
+111            android:exported="false"
+111-->[com.google.firebase:firebase-common:22.0.1] C:\Users\Krishna\.gradle\caches\transforms-4\aa35fe5a3cb5db29317b5413105f4424\transformed\firebase-common-22.0.1\AndroidManifest.xml:27:13-37
+112            android:initOrder="100" />
+112-->[com.google.firebase:firebase-common:22.0.1] C:\Users\Krishna\.gradle\caches\transforms-4\aa35fe5a3cb5db29317b5413105f4424\transformed\firebase-common-22.0.1\AndroidManifest.xml:28:13-36
+113
+114        <receiver
+114-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\b104be706e8578ddfdcfaae97ce7dcc1\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:29:9-33:20
+115            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+115-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\b104be706e8578ddfdcfaae97ce7dcc1\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:30:13-85
+116            android:enabled="true"
+116-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\b104be706e8578ddfdcfaae97ce7dcc1\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:31:13-35
+117            android:exported="false" >
+117-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\b104be706e8578ddfdcfaae97ce7dcc1\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:32:13-37
+118        </receiver>
+119
+120        <service
+120-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\b104be706e8578ddfdcfaae97ce7dcc1\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:35:9-38:40
+121            android:name="com.google.android.gms.measurement.AppMeasurementService"
+121-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\b104be706e8578ddfdcfaae97ce7dcc1\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:36:13-84
+122            android:enabled="true"
+122-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\b104be706e8578ddfdcfaae97ce7dcc1\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:37:13-35
+123            android:exported="false" />
+123-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\b104be706e8578ddfdcfaae97ce7dcc1\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:38:13-37
+124        <service
+124-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\b104be706e8578ddfdcfaae97ce7dcc1\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:39:9-43:72
+125            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+125-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\b104be706e8578ddfdcfaae97ce7dcc1\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:40:13-87
+126            android:enabled="true"
+126-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\b104be706e8578ddfdcfaae97ce7dcc1\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:41:13-35
+127            android:exported="false"
+127-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\b104be706e8578ddfdcfaae97ce7dcc1\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:42:13-37
+128            android:permission="android.permission.BIND_JOB_SERVICE" />
+128-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\b104be706e8578ddfdcfaae97ce7dcc1\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:43:13-69
+129
+130        <uses-library
+130-->[androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\Krishna\.gradle\caches\transforms-4\3187df3aa5313cb7fe542cfa179844ed\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:23:9-25:40
+131            android:name="android.ext.adservices"
+131-->[androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\Krishna\.gradle\caches\transforms-4\3187df3aa5313cb7fe542cfa179844ed\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:24:13-50
+132            android:required="false" />
+132-->[androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\Krishna\.gradle\caches\transforms-4\3187df3aa5313cb7fe542cfa179844ed\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:25:13-37
+133
+134        <activity
+134-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Krishna\.gradle\caches\transforms-4\088fddacee809c1b18ebe32f42a9a497\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+135            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+135-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Krishna\.gradle\caches\transforms-4\088fddacee809c1b18ebe32f42a9a497\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+136            android:exported="false"
+136-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Krishna\.gradle\caches\transforms-4\088fddacee809c1b18ebe32f42a9a497\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+137            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+137-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Krishna\.gradle\caches\transforms-4\088fddacee809c1b18ebe32f42a9a497\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+138
+139        <meta-data
+139-->[com.google.android.gms:play-services-basement:18.5.0] C:\Users\Krishna\.gradle\caches\transforms-4\3c6a91141cba5c06f9a3787d3c70d98d\transformed\play-services-basement-18.5.0\AndroidManifest.xml:21:9-23:69
+140            android:name="com.google.android.gms.version"
+140-->[com.google.android.gms:play-services-basement:18.5.0] C:\Users\Krishna\.gradle\caches\transforms-4\3c6a91141cba5c06f9a3787d3c70d98d\transformed\play-services-basement-18.5.0\AndroidManifest.xml:22:13-58
+141            android:value="@integer/google_play_services_version" />
+141-->[com.google.android.gms:play-services-basement:18.5.0] C:\Users\Krishna\.gradle\caches\transforms-4\3c6a91141cba5c06f9a3787d3c70d98d\transformed\play-services-basement-18.5.0\AndroidManifest.xml:23:13-66
+142    </application>
+143
+144</manifest>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "296935748706",
+    "project_id": "npatc-87cea",
+    "storage_bucket": "npatc-87cea.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:296935748706:android:21b55acbefbca6f9060d3b",
+        "android_client_info": {
+          "package_name": "com.example.naptca"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfowlNorMUjHSdYY0mPZ6T6Aa_zCofvBU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

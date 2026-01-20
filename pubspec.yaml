@@ -1,0 +1,53 @@
+name: naptca
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI & utilities
+  flutter_typeahead: ^5.2.0
+  http: ^1.6.0
+  provider: ^6.0.5
+  intl: ^0.19.0
+  fl_chart: ^0.68.0
+  cupertino_icons: ^1.0.8
+  share_plus: ^10.0.0
+  csv: ^5.0.0
+
+  # Location & maps
+  geolocator: ^10.0.0
+  geocoding: ^2.1.0
+  google_maps_flutter: ^2.7.0
+  flutter_polyline_points: ^2.0.0
+
+  # Storage
+  path_provider: ^2.1.4
+
+  # Firebase (COMPATIBLE SET ✅)
+  firebase_core: ^4.2.1
+  firebase_auth: ^6.1.2
+  cloud_firestore: ^6.1.0
+  firebase_storage: ^13.0.4
+
+  # Background services
+  flutter_background_service: ^5.0.4
+  flutter_background_service_android: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - lib/google_logo.png
+    - lib/assets/icons/bus_stop.png

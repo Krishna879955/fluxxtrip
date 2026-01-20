@@ -1,0 +1,388 @@
+-- Merging decision tree log ---
+application
+INJECTED from C:\Users\Krishna\AndroidStudioProjects\naptca\android\app\src\main\AndroidManifest.xml:3:5-37:19
+INJECTED from C:\Users\Krishna\AndroidStudioProjects\naptca\android\app\src\debug\AndroidManifest.xml
+MERGED from [com.google.firebase:firebase-analytics:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\b62966d529b21746b3802fdde1ae9f90\transformed\firebase-analytics-23.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\b62966d529b21746b3802fdde1ae9f90\transformed\firebase-analytics-23.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\6ff09152b66c42e2cb75fa11f6053e97\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:29:5-37:19
+MERGED from [com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\6ff09152b66c42e2cb75fa11f6053e97\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:29:5-37:19
+MERGED from [com.google.firebase:firebase-installations:19.0.1] C:\Users\Krishna\.gradle\caches\transforms-4\a663ccab4033529f746845a3a94e018c\transformed\firebase-installations-19.0.1\AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-installations:19.0.1] C:\Users\Krishna\.gradle\caches\transforms-4\a663ccab4033529f746845a3a94e018c\transformed\firebase-installations-19.0.1\AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Krishna\.gradle\caches\transforms-4\aa35fe5a3cb5db29317b5413105f4424\transformed\firebase-common-22.0.1\AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Krishna\.gradle\caches\transforms-4\aa35fe5a3cb5db29317b5413105f4424\transformed\firebase-common-22.0.1\AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\b104be706e8578ddfdcfaae97ce7dcc1\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\b104be706e8578ddfdcfaae97ce7dcc1\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\99b174b4e41eec984eb93afdd436cdb9\transformed\play-services-measurement-sdk-23.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\99b174b4e41eec984eb93afdd436cdb9\transformed\play-services-measurement-sdk-23.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\0dbd31fa942cabf09d4debbf4d4444ed\transformed\play-services-measurement-impl-23.0.0\AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\0dbd31fa942cabf09d4debbf4d4444ed\transformed\play-services-measurement-impl-23.0.0\AndroidManifest.xml:29:5-30:19
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\Krishna\.gradle\caches\transforms-4\3187df3aa5313cb7fe542cfa179844ed\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\Krishna\.gradle\caches\transforms-4\3187df3aa5313cb7fe542cfa179844ed\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\Krishna\.gradle\caches\transforms-4\023552f6f82bb363e1ca0d7eba7ce98b\transformed\play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\Krishna\.gradle\caches\transforms-4\023552f6f82bb363e1ca0d7eba7ce98b\transformed\play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\9d477b62053dd61b6a05576d838eddf6\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\9d477b62053dd61b6a05576d838eddf6\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\b446e06b5dc4f100ce33d5af7ee338bd\transformed\play-services-measurement-base-23.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\b446e06b5dc4f100ce33d5af7ee338bd\transformed\play-services-measurement-base-23.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Krishna\.gradle\caches\transforms-4\088fddacee809c1b18ebe32f42a9a497\transformed\play-services-base-18.5.0\AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Krishna\.gradle\caches\transforms-4\088fddacee809c1b18ebe32f42a9a497\transformed\play-services-base-18.5.0\AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\Krishna\.gradle\caches\transforms-4\bdfb48e08b3140ea267b72fee4f076dd\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\Krishna\.gradle\caches\transforms-4\bdfb48e08b3140ea267b72fee4f076dd\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\21820c608ada83186a9cf1a90027c869\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\21820c608ada83186a9cf1a90027c869\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:18.5.0] C:\Users\Krishna\.gradle\caches\transforms-4\3c6a91141cba5c06f9a3787d3c70d98d\transformed\play-services-basement-18.5.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.5.0] C:\Users\Krishna\.gradle\caches\transforms-4\3c6a91141cba5c06f9a3787d3c70d98d\transformed\play-services-basement-18.5.0\AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.core:core:1.9.0] C:\Users\Krishna\.gradle\caches\transforms-4\3cc9a124f22ae9eaf1275345525667d7\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.9.0] C:\Users\Krishna\.gradle\caches\transforms-4\3cc9a124f22ae9eaf1275345525667d7\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Krishna\.gradle\caches\transforms-4\d1a01035d2bb3c39bea7ff33ebd31bc1\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Krishna\.gradle\caches\transforms-4\d1a01035d2bb3c39bea7ff33ebd31bc1\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\Krishna\AndroidStudioProjects\naptca\android\app\src\debug\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.9.0] C:\Users\Krishna\.gradle\caches\transforms-4\3cc9a124f22ae9eaf1275345525667d7\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+	android:name
+		INJECTED from C:\Users\Krishna\AndroidStudioProjects\naptca\android\app\src\main\AndroidManifest.xml
+manifest
+ADDED from C:\Users\Krishna\AndroidStudioProjects\naptca\android\app\src\main\AndroidManifest.xml:1:1-49:12
+MERGED from C:\Users\Krishna\AndroidStudioProjects\naptca\android\app\src\main\AndroidManifest.xml:1:1-49:12
+INJECTED from C:\Users\Krishna\AndroidStudioProjects\naptca\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from C:\Users\Krishna\AndroidStudioProjects\naptca\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from C:\Users\Krishna\AndroidStudioProjects\naptca\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+MERGED from [com.google.firebase:firebase-analytics:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\b62966d529b21746b3802fdde1ae9f90\transformed\firebase-analytics-23.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\6ff09152b66c42e2cb75fa11f6053e97\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.firebase:firebase-installations:19.0.1] C:\Users\Krishna\.gradle\caches\transforms-4\a663ccab4033529f746845a3a94e018c\transformed\firebase-installations-19.0.1\AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Krishna\.gradle\caches\transforms-4\aa35fe5a3cb5db29317b5413105f4424\transformed\firebase-common-22.0.1\AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\b104be706e8578ddfdcfaae97ce7dcc1\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\99b174b4e41eec984eb93afdd436cdb9\transformed\play-services-measurement-sdk-23.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\0dbd31fa942cabf09d4debbf4d4444ed\transformed\play-services-measurement-impl-23.0.0\AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.1.0-beta11] C:\Users\Krishna\.gradle\caches\transforms-4\239b5f6032ed7eaaf8f941edb8afa246\transformed\ads-adservices-java-1.1.0-beta11\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\Krishna\.gradle\caches\transforms-4\3187df3aa5313cb7fe542cfa179844ed\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.datastore:datastore-core-android:1.1.7] C:\Users\Krishna\.gradle\caches\transforms-4\34e9e60ecce88c8bb174ea3b61db58d5\transformed\datastore-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.datastore:datastore-preferences-core-android:1.1.7] C:\Users\Krishna\.gradle\caches\transforms-4\9fa9e52fc3c18e6d77e0a413a5467413\transformed\datastore-preferences-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.datastore:datastore-android:1.1.7] C:\Users\Krishna\.gradle\caches\transforms-4\1759a668cfe4dd328ae7dc776cfc96ad\transformed\datastore-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.7] C:\Users\Krishna\.gradle\caches\transforms-4\2968e465ea82e22b0da4efbcb82001af\transformed\datastore-preferences-release\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\Krishna\.gradle\caches\transforms-4\023552f6f82bb363e1ca0d7eba7ce98b\transformed\play-services-stats-17.0.2\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\666f4b43d4b5b4796cb8043b0ab6ca2e\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\9d477b62053dd61b6a05576d838eddf6\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\6f77c04ce84040e86eca539b838f8a22\transformed\play-services-measurement-sdk-api-23.0.0\AndroidManifest.xml:17:1-30:12
+MERGED from [com.google.android.gms:play-services-measurement-base:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\b446e06b5dc4f100ce33d5af7ee338bd\transformed\play-services-measurement-base-23.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Krishna\.gradle\caches\transforms-4\088fddacee809c1b18ebe32f42a9a497\transformed\play-services-base-18.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] C:\Users\Krishna\.gradle\caches\transforms-4\932bc4596e099dc92953b7991f691e52\transformed\firebase-installations-interop-17.1.1\AndroidManifest.xml:15:1-19:12
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\Krishna\.gradle\caches\transforms-4\bdfb48e08b3140ea267b72fee4f076dd\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\21820c608ada83186a9cf1a90027c869\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:18.5.0] C:\Users\Krishna\.gradle\caches\transforms-4\3c6a91141cba5c06f9a3787d3c70d98d\transformed\play-services-basement-18.5.0\AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Krishna\.gradle\caches\transforms-4\2b1c96cbb3f6ae35c297522ab94d3b52\transformed\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\a3d93c9ec790e9a7e4460d778c0da0a0\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\aad0b8f5d1987c16399e842fdbf28f31\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\1309190fb4f031fffbbecaa7a38b1507\transformed\activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\Krishna\.gradle\caches\transforms-4\597549ee5ed083bf87f047c553dc5025\transformed\core-ktx-1.9.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\6fd16bf071489b03dc82405c681538b8\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.9.0] C:\Users\Krishna\.gradle\caches\transforms-4\3cc9a124f22ae9eaf1275345525667d7\transformed\core-1.9.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Krishna\.gradle\caches\transforms-4\b8aa1d063d5b4d19ecd77dc1f3391aca\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\aecce105a4cdc320194b926377215802\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\c52e3c2d249c8bda15b19502afca8a5e\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\18a2a9d74a59177312f9bae6114eacde\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:19.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\8a61e2affc7987ce37f3311303d3d2c0\transformed\firebase-components-19.0.0\AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Krishna\.gradle\caches\transforms-4\d1a01035d2bb3c39bea7ff33ebd31bc1\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\Krishna\.gradle\caches\transforms-4\fea6cb738c5349454f81b9107405d7c0\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Krishna\.gradle\caches\transforms-4\5eabb3c01b27a48b49a1296622a1ee36\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\aa13b80cf77f776bfdb66dd04b38e820\transformed\savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\97f167b885d0ba4b991f3c45c7d81e58\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\6ba8f99365781823c2dbb2529cadd2cf\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Krishna\.gradle\caches\transforms-4\9d9f771502e0392b429f0a3e29059507\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+	package
+		INJECTED from C:\Users\Krishna\AndroidStudioProjects\naptca\android\app\src\debug\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Krishna\AndroidStudioProjects\naptca\android\app\src\debug\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Krishna\AndroidStudioProjects\naptca\android\app\src\debug\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Krishna\AndroidStudioProjects\naptca\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from C:\Users\Krishna\AndroidStudioProjects\naptca\android\app\src\main\AndroidManifest.xml:2:5-77
+	android:name
+		ADDED from C:\Users\Krishna\AndroidStudioProjects\naptca\android\app\src\main\AndroidManifest.xml:2:22-74
+queries
+ADDED from C:\Users\Krishna\AndroidStudioProjects\naptca\android\app\src\main\AndroidManifest.xml:43:5-48:15
+intent#action:name:android.intent.action.PROCESS_TEXT+data:mimeType:text/plain
+ADDED from C:\Users\Krishna\AndroidStudioProjects\naptca\android\app\src\main\AndroidManifest.xml:44:9-47:18
+action#android.intent.action.PROCESS_TEXT
+ADDED from C:\Users\Krishna\AndroidStudioProjects\naptca\android\app\src\main\AndroidManifest.xml:45:13-72
+	android:name
+		ADDED from C:\Users\Krishna\AndroidStudioProjects\naptca\android\app\src\main\AndroidManifest.xml:45:21-70
+data
+ADDED from C:\Users\Krishna\AndroidStudioProjects\naptca\android\app\src\main\AndroidManifest.xml:46:13-50
+	android:mimeType
+		ADDED from C:\Users\Krishna\AndroidStudioProjects\naptca\android\app\src\main\AndroidManifest.xml:46:19-48
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Krishna\AndroidStudioProjects\naptca\android\app\src\debug\AndroidManifest.xml:6:5-66
+MERGED from [com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\6ff09152b66c42e2cb75fa11f6053e97\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\6ff09152b66c42e2cb75fa11f6053e97\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:19.0.1] C:\Users\Krishna\.gradle\caches\transforms-4\a663ccab4033529f746845a3a94e018c\transformed\firebase-installations-19.0.1\AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-installations:19.0.1] C:\Users\Krishna\.gradle\caches\transforms-4\a663ccab4033529f746845a3a94e018c\transformed\firebase-installations-19.0.1\AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\b104be706e8578ddfdcfaae97ce7dcc1\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\b104be706e8578ddfdcfaae97ce7dcc1\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\0dbd31fa942cabf09d4debbf4d4444ed\transformed\play-services-measurement-impl-23.0.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\0dbd31fa942cabf09d4debbf4d4444ed\transformed\play-services-measurement-impl-23.0.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\6f77c04ce84040e86eca539b838f8a22\transformed\play-services-measurement-sdk-api-23.0.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\6f77c04ce84040e86eca539b838f8a22\transformed\play-services-measurement-sdk-api-23.0.0\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from C:\Users\Krishna\AndroidStudioProjects\naptca\android\app\src\debug\AndroidManifest.xml:6:22-64
+uses-sdk
+INJECTED from C:\Users\Krishna\AndroidStudioProjects\naptca\android\app\src\debug\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Krishna\AndroidStudioProjects\naptca\android\app\src\debug\AndroidManifest.xml
+INJECTED from C:\Users\Krishna\AndroidStudioProjects\naptca\android\app\src\debug\AndroidManifest.xml
+MERGED from [com.google.firebase:firebase-analytics:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\b62966d529b21746b3802fdde1ae9f90\transformed\firebase-analytics-23.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\b62966d529b21746b3802fdde1ae9f90\transformed\firebase-analytics-23.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\6ff09152b66c42e2cb75fa11f6053e97\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\6ff09152b66c42e2cb75fa11f6053e97\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations:19.0.1] C:\Users\Krishna\.gradle\caches\transforms-4\a663ccab4033529f746845a3a94e018c\transformed\firebase-installations-19.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations:19.0.1] C:\Users\Krishna\.gradle\caches\transforms-4\a663ccab4033529f746845a3a94e018c\transformed\firebase-installations-19.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Krishna\.gradle\caches\transforms-4\aa35fe5a3cb5db29317b5413105f4424\transformed\firebase-common-22.0.1\AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Krishna\.gradle\caches\transforms-4\aa35fe5a3cb5db29317b5413105f4424\transformed\firebase-common-22.0.1\AndroidManifest.xml:19:5-44
+MERGED from [com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\b104be706e8578ddfdcfaae97ce7dcc1\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\b104be706e8578ddfdcfaae97ce7dcc1\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\99b174b4e41eec984eb93afdd436cdb9\transformed\play-services-measurement-sdk-23.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\99b174b4e41eec984eb93afdd436cdb9\transformed\play-services-measurement-sdk-23.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\0dbd31fa942cabf09d4debbf4d4444ed\transformed\play-services-measurement-impl-23.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\0dbd31fa942cabf09d4debbf4d4444ed\transformed\play-services-measurement-impl-23.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.1.0-beta11] C:\Users\Krishna\.gradle\caches\transforms-4\239b5f6032ed7eaaf8f941edb8afa246\transformed\ads-adservices-java-1.1.0-beta11\AndroidManifest.xml:5:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.1.0-beta11] C:\Users\Krishna\.gradle\caches\transforms-4\239b5f6032ed7eaaf8f941edb8afa246\transformed\ads-adservices-java-1.1.0-beta11\AndroidManifest.xml:5:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\Krishna\.gradle\caches\transforms-4\3187df3aa5313cb7fe542cfa179844ed\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:20:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\Krishna\.gradle\caches\transforms-4\3187df3aa5313cb7fe542cfa179844ed\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.7] C:\Users\Krishna\.gradle\caches\transforms-4\34e9e60ecce88c8bb174ea3b61db58d5\transformed\datastore-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.7] C:\Users\Krishna\.gradle\caches\transforms-4\34e9e60ecce88c8bb174ea3b61db58d5\transformed\datastore-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-preferences-core-android:1.1.7] C:\Users\Krishna\.gradle\caches\transforms-4\9fa9e52fc3c18e6d77e0a413a5467413\transformed\datastore-preferences-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-preferences-core-android:1.1.7] C:\Users\Krishna\.gradle\caches\transforms-4\9fa9e52fc3c18e6d77e0a413a5467413\transformed\datastore-preferences-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.7] C:\Users\Krishna\.gradle\caches\transforms-4\1759a668cfe4dd328ae7dc776cfc96ad\transformed\datastore-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.7] C:\Users\Krishna\.gradle\caches\transforms-4\1759a668cfe4dd328ae7dc776cfc96ad\transformed\datastore-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.7] C:\Users\Krishna\.gradle\caches\transforms-4\2968e465ea82e22b0da4efbcb82001af\transformed\datastore-preferences-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.7] C:\Users\Krishna\.gradle\caches\transforms-4\2968e465ea82e22b0da4efbcb82001af\transformed\datastore-preferences-release\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\Krishna\.gradle\caches\transforms-4\023552f6f82bb363e1ca0d7eba7ce98b\transformed\play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\Krishna\.gradle\caches\transforms-4\023552f6f82bb363e1ca0d7eba7ce98b\transformed\play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\666f4b43d4b5b4796cb8043b0ab6ca2e\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\666f4b43d4b5b4796cb8043b0ab6ca2e\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\9d477b62053dd61b6a05576d838eddf6\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\9d477b62053dd61b6a05576d838eddf6\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\6f77c04ce84040e86eca539b838f8a22\transformed\play-services-measurement-sdk-api-23.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\6f77c04ce84040e86eca539b838f8a22\transformed\play-services-measurement-sdk-api-23.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\b446e06b5dc4f100ce33d5af7ee338bd\transformed\play-services-measurement-base-23.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\b446e06b5dc4f100ce33d5af7ee338bd\transformed\play-services-measurement-base-23.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Krishna\.gradle\caches\transforms-4\088fddacee809c1b18ebe32f42a9a497\transformed\play-services-base-18.5.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Krishna\.gradle\caches\transforms-4\088fddacee809c1b18ebe32f42a9a497\transformed\play-services-base-18.5.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] C:\Users\Krishna\.gradle\caches\transforms-4\932bc4596e099dc92953b7991f691e52\transformed\firebase-installations-interop-17.1.1\AndroidManifest.xml:17:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] C:\Users\Krishna\.gradle\caches\transforms-4\932bc4596e099dc92953b7991f691e52\transformed\firebase-installations-interop-17.1.1\AndroidManifest.xml:17:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\Krishna\.gradle\caches\transforms-4\bdfb48e08b3140ea267b72fee4f076dd\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\Krishna\.gradle\caches\transforms-4\bdfb48e08b3140ea267b72fee4f076dd\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\21820c608ada83186a9cf1a90027c869\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\21820c608ada83186a9cf1a90027c869\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.5.0] C:\Users\Krishna\.gradle\caches\transforms-4\3c6a91141cba5c06f9a3787d3c70d98d\transformed\play-services-basement-18.5.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.5.0] C:\Users\Krishna\.gradle\caches\transforms-4\3c6a91141cba5c06f9a3787d3c70d98d\transformed\play-services-basement-18.5.0\AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Krishna\.gradle\caches\transforms-4\2b1c96cbb3f6ae35c297522ab94d3b52\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Krishna\.gradle\caches\transforms-4\2b1c96cbb3f6ae35c297522ab94d3b52\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\a3d93c9ec790e9a7e4460d778c0da0a0\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\a3d93c9ec790e9a7e4460d778c0da0a0\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\aad0b8f5d1987c16399e842fdbf28f31\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\aad0b8f5d1987c16399e842fdbf28f31\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\1309190fb4f031fffbbecaa7a38b1507\transformed\activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\1309190fb4f031fffbbecaa7a38b1507\transformed\activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\Krishna\.gradle\caches\transforms-4\597549ee5ed083bf87f047c553dc5025\transformed\core-ktx-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\Krishna\.gradle\caches\transforms-4\597549ee5ed083bf87f047c553dc5025\transformed\core-ktx-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\6fd16bf071489b03dc82405c681538b8\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\6fd16bf071489b03dc82405c681538b8\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] C:\Users\Krishna\.gradle\caches\transforms-4\3cc9a124f22ae9eaf1275345525667d7\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] C:\Users\Krishna\.gradle\caches\transforms-4\3cc9a124f22ae9eaf1275345525667d7\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Krishna\.gradle\caches\transforms-4\b8aa1d063d5b4d19ecd77dc1f3391aca\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Krishna\.gradle\caches\transforms-4\b8aa1d063d5b4d19ecd77dc1f3391aca\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\aecce105a4cdc320194b926377215802\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\aecce105a4cdc320194b926377215802\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\c52e3c2d249c8bda15b19502afca8a5e\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\c52e3c2d249c8bda15b19502afca8a5e\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\18a2a9d74a59177312f9bae6114eacde\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\18a2a9d74a59177312f9bae6114eacde\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:19.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\8a61e2affc7987ce37f3311303d3d2c0\transformed\firebase-components-19.0.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-components:19.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\8a61e2affc7987ce37f3311303d3d2c0\transformed\firebase-components-19.0.0\AndroidManifest.xml:18:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Krishna\.gradle\caches\transforms-4\d1a01035d2bb3c39bea7ff33ebd31bc1\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Krishna\.gradle\caches\transforms-4\d1a01035d2bb3c39bea7ff33ebd31bc1\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\Krishna\.gradle\caches\transforms-4\fea6cb738c5349454f81b9107405d7c0\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\Krishna\.gradle\caches\transforms-4\fea6cb738c5349454f81b9107405d7c0\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Krishna\.gradle\caches\transforms-4\5eabb3c01b27a48b49a1296622a1ee36\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Krishna\.gradle\caches\transforms-4\5eabb3c01b27a48b49a1296622a1ee36\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\aa13b80cf77f776bfdb66dd04b38e820\transformed\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\aa13b80cf77f776bfdb66dd04b38e820\transformed\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\97f167b885d0ba4b991f3c45c7d81e58\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\97f167b885d0ba4b991f3c45c7d81e58\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\6ba8f99365781823c2dbb2529cadd2cf\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\6ba8f99365781823c2dbb2529cadd2cf\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Krishna\.gradle\caches\transforms-4\9d9f771502e0392b429f0a3e29059507\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Krishna\.gradle\caches\transforms-4\9d9f771502e0392b429f0a3e29059507\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+	android:targetSdkVersion
+		INJECTED from C:\Users\Krishna\AndroidStudioProjects\naptca\android\app\src\debug\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Krishna\AndroidStudioProjects\naptca\android\app\src\debug\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\6ff09152b66c42e2cb75fa11f6053e97\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:19.0.1] C:\Users\Krishna\.gradle\caches\transforms-4\a663ccab4033529f746845a3a94e018c\transformed\firebase-installations-19.0.1\AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-installations:19.0.1] C:\Users\Krishna\.gradle\caches\transforms-4\a663ccab4033529f746845a3a94e018c\transformed\firebase-installations-19.0.1\AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\b104be706e8578ddfdcfaae97ce7dcc1\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\b104be706e8578ddfdcfaae97ce7dcc1\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\0dbd31fa942cabf09d4debbf4d4444ed\transformed\play-services-measurement-impl-23.0.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\0dbd31fa942cabf09d4debbf4d4444ed\transformed\play-services-measurement-impl-23.0.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\6f77c04ce84040e86eca539b838f8a22\transformed\play-services-measurement-sdk-api-23.0.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\6f77c04ce84040e86eca539b838f8a22\transformed\play-services-measurement-sdk-api-23.0.0\AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\6ff09152b66c42e2cb75fa11f6053e97\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:23:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\6ff09152b66c42e2cb75fa11f6053e97\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\b104be706e8578ddfdcfaae97ce7dcc1\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\b104be706e8578ddfdcfaae97ce7dcc1\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\0dbd31fa942cabf09d4debbf4d4444ed\transformed\play-services-measurement-impl-23.0.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\0dbd31fa942cabf09d4debbf4d4444ed\transformed\play-services-measurement-impl-23.0.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\6f77c04ce84040e86eca539b838f8a22\transformed\play-services-measurement-sdk-api-23.0.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\6f77c04ce84040e86eca539b838f8a22\transformed\play-services-measurement-sdk-api-23.0.0\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\6ff09152b66c42e2cb75fa11f6053e97\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:24:22-65
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\6ff09152b66c42e2cb75fa11f6053e97\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\0dbd31fa942cabf09d4debbf4d4444ed\transformed\play-services-measurement-impl-23.0.0\AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\0dbd31fa942cabf09d4debbf4d4444ed\transformed\play-services-measurement-impl-23.0.0\AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\9d477b62053dd61b6a05576d838eddf6\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\9d477b62053dd61b6a05576d838eddf6\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\6f77c04ce84040e86eca539b838f8a22\transformed\play-services-measurement-sdk-api-23.0.0\AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\6f77c04ce84040e86eca539b838f8a22\transformed\play-services-measurement-sdk-api-23.0.0\AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\6ff09152b66c42e2cb75fa11f6053e97\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:25:22-76
+uses-permission#android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+ADDED from [com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\6ff09152b66c42e2cb75fa11f6053e97\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:26:5-88
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\6f77c04ce84040e86eca539b838f8a22\transformed\play-services-measurement-sdk-api-23.0.0\AndroidManifest.xml:27:5-88
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\6f77c04ce84040e86eca539b838f8a22\transformed\play-services-measurement-sdk-api-23.0.0\AndroidManifest.xml:27:5-88
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\6ff09152b66c42e2cb75fa11f6053e97\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:26:22-85
+uses-permission#android.permission.ACCESS_ADSERVICES_AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\6ff09152b66c42e2cb75fa11f6053e97\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:27:5-82
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\6f77c04ce84040e86eca539b838f8a22\transformed\play-services-measurement-sdk-api-23.0.0\AndroidManifest.xml:28:5-82
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\6f77c04ce84040e86eca539b838f8a22\transformed\play-services-measurement-sdk-api-23.0.0\AndroidManifest.xml:28:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\6ff09152b66c42e2cb75fa11f6053e97\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:27:22-79
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\6ff09152b66c42e2cb75fa11f6053e97\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:30:9-36:19
+MERGED from [com.google.firebase:firebase-installations:19.0.1] C:\Users\Krishna\.gradle\caches\transforms-4\a663ccab4033529f746845a3a94e018c\transformed\firebase-installations-19.0.1\AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-installations:19.0.1] C:\Users\Krishna\.gradle\caches\transforms-4\a663ccab4033529f746845a3a94e018c\transformed\firebase-installations-19.0.1\AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Krishna\.gradle\caches\transforms-4\aa35fe5a3cb5db29317b5413105f4424\transformed\firebase-common-22.0.1\AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Krishna\.gradle\caches\transforms-4\aa35fe5a3cb5db29317b5413105f4424\transformed\firebase-common-22.0.1\AndroidManifest.xml:30:9-38:19
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\6ff09152b66c42e2cb75fa11f6053e97\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:32:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Krishna\.gradle\caches\transforms-4\aa35fe5a3cb5db29317b5413105f4424\transformed\firebase-common-22.0.1\AndroidManifest.xml:34:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Krishna\.gradle\caches\transforms-4\aa35fe5a3cb5db29317b5413105f4424\transformed\firebase-common-22.0.1\AndroidManifest.xml:32:13-43
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\6ff09152b66c42e2cb75fa11f6053e97\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:31:13-84
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\6ff09152b66c42e2cb75fa11f6053e97\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:33:13-35:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\6ff09152b66c42e2cb75fa11f6053e97\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:35:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\6ff09152b66c42e2cb75fa11f6053e97\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:34:17-139
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar
+ADDED from [com.google.firebase:firebase-installations:19.0.1] C:\Users\Krishna\.gradle\caches\transforms-4\a663ccab4033529f746845a3a94e018c\transformed\firebase-installations-19.0.1\AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:19.0.1] C:\Users\Krishna\.gradle\caches\transforms-4\a663ccab4033529f746845a3a94e018c\transformed\firebase-installations-19.0.1\AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:19.0.1] C:\Users\Krishna\.gradle\caches\transforms-4\a663ccab4033529f746845a3a94e018c\transformed\firebase-installations-19.0.1\AndroidManifest.xml:16:17-130
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:19.0.1] C:\Users\Krishna\.gradle\caches\transforms-4\a663ccab4033529f746845a3a94e018c\transformed\firebase-installations-19.0.1\AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:19.0.1] C:\Users\Krishna\.gradle\caches\transforms-4\a663ccab4033529f746845a3a94e018c\transformed\firebase-installations-19.0.1\AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:19.0.1] C:\Users\Krishna\.gradle\caches\transforms-4\a663ccab4033529f746845a3a94e018c\transformed\firebase-installations-19.0.1\AndroidManifest.xml:19:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Krishna\.gradle\caches\transforms-4\aa35fe5a3cb5db29317b5413105f4424\transformed\firebase-common-22.0.1\AndroidManifest.xml:23:9-28:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Krishna\.gradle\caches\transforms-4\aa35fe5a3cb5db29317b5413105f4424\transformed\firebase-common-22.0.1\AndroidManifest.xml:25:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Krishna\.gradle\caches\transforms-4\aa35fe5a3cb5db29317b5413105f4424\transformed\firebase-common-22.0.1\AndroidManifest.xml:27:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Krishna\.gradle\caches\transforms-4\aa35fe5a3cb5db29317b5413105f4424\transformed\firebase-common-22.0.1\AndroidManifest.xml:26:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Krishna\.gradle\caches\transforms-4\aa35fe5a3cb5db29317b5413105f4424\transformed\firebase-common-22.0.1\AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Krishna\.gradle\caches\transforms-4\aa35fe5a3cb5db29317b5413105f4424\transformed\firebase-common-22.0.1\AndroidManifest.xml:24:13-77
+meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Krishna\.gradle\caches\transforms-4\aa35fe5a3cb5db29317b5413105f4424\transformed\firebase-common-22.0.1\AndroidManifest.xml:35:13-37:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Krishna\.gradle\caches\transforms-4\aa35fe5a3cb5db29317b5413105f4424\transformed\firebase-common-22.0.1\AndroidManifest.xml:37:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\Krishna\.gradle\caches\transforms-4\aa35fe5a3cb5db29317b5413105f4424\transformed\firebase-common-22.0.1\AndroidManifest.xml:36:17-109
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\b104be706e8578ddfdcfaae97ce7dcc1\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\0dbd31fa942cabf09d4debbf4d4444ed\transformed\play-services-measurement-impl-23.0.0\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\0dbd31fa942cabf09d4debbf4d4444ed\transformed\play-services-measurement-impl-23.0.0\AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\b104be706e8578ddfdcfaae97ce7dcc1\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\b104be706e8578ddfdcfaae97ce7dcc1\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\b104be706e8578ddfdcfaae97ce7dcc1\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\b104be706e8578ddfdcfaae97ce7dcc1\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\b104be706e8578ddfdcfaae97ce7dcc1\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\b104be706e8578ddfdcfaae97ce7dcc1\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\b104be706e8578ddfdcfaae97ce7dcc1\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\b104be706e8578ddfdcfaae97ce7dcc1\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\b104be706e8578ddfdcfaae97ce7dcc1\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\b104be706e8578ddfdcfaae97ce7dcc1\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\b104be706e8578ddfdcfaae97ce7dcc1\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\b104be706e8578ddfdcfaae97ce7dcc1\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\b104be706e8578ddfdcfaae97ce7dcc1\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:23.0.0] C:\Users\Krishna\.gradle\caches\transforms-4\b104be706e8578ddfdcfaae97ce7dcc1\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:40:13-87
+uses-library#android.ext.adservices
+ADDED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\Krishna\.gradle\caches\transforms-4\3187df3aa5313cb7fe542cfa179844ed\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:23:9-25:40
+	android:required
+		ADDED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\Krishna\.gradle\caches\transforms-4\3187df3aa5313cb7fe542cfa179844ed\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\Krishna\.gradle\caches\transforms-4\3187df3aa5313cb7fe542cfa179844ed\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:24:13-50
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Krishna\.gradle\caches\transforms-4\088fddacee809c1b18ebe32f42a9a497\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Krishna\.gradle\caches\transforms-4\088fddacee809c1b18ebe32f42a9a497\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Krishna\.gradle\caches\transforms-4\088fddacee809c1b18ebe32f42a9a497\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\Krishna\.gradle\caches\transforms-4\088fddacee809c1b18ebe32f42a9a497\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.5.0] C:\Users\Krishna\.gradle\caches\transforms-4\3c6a91141cba5c06f9a3787d3c70d98d\transformed\play-services-basement-18.5.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.5.0] C:\Users\Krishna\.gradle\caches\transforms-4\3c6a91141cba5c06f9a3787d3c70d98d\transformed\play-services-basement-18.5.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.5.0] C:\Users\Krishna\.gradle\caches\transforms-4\3c6a91141cba5c06f9a3787d3c70d98d\transformed\play-services-basement-18.5.0\AndroidManifest.xml:22:13-58
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\Krishna\.gradle\caches\transforms-4\3cc9a124f22ae9eaf1275345525667d7\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] C:\Users\Krishna\.gradle\caches\transforms-4\3cc9a124f22ae9eaf1275345525667d7\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\Krishna\.gradle\caches\transforms-4\3cc9a124f22ae9eaf1275345525667d7\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+permission#com.example.naptca.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\Krishna\.gradle\caches\transforms-4\3cc9a124f22ae9eaf1275345525667d7\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] C:\Users\Krishna\.gradle\caches\transforms-4\3cc9a124f22ae9eaf1275345525667d7\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\Krishna\.gradle\caches\transforms-4\3cc9a124f22ae9eaf1275345525667d7\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\Krishna\.gradle\caches\transforms-4\3cc9a124f22ae9eaf1275345525667d7\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\Krishna\.gradle\caches\transforms-4\3cc9a124f22ae9eaf1275345525667d7\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+uses-permission#com.example.naptca.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\Krishna\.gradle\caches\transforms-4\3cc9a124f22ae9eaf1275345525667d7\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\Krishna\.gradle\caches\transforms-4\3cc9a124f22ae9eaf1275345525667d7\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
